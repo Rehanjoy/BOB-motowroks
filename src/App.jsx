@@ -23,12 +23,12 @@ function App() {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://flowbite.com/" className="flex items-center">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8 mr-3"
+              src="https://res.cloudinary.com/dcpte972l/image/upload/v1687609415/WhatsApp_Image_2023-06-24_at_13.04.02_h7lcvw.jpg"
+              className="h-8 mr-3 logo"
               alt="Flowbite Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
+              BOB MotoWorks
             </span>
           </a>
           <div className="flex md:order-2">
@@ -36,7 +36,7 @@ function App() {
               type="button"
               className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
-              Get started
+              Rent A Car
             </button>
 
             <button
@@ -55,9 +55,9 @@ function App() {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
             </button>
@@ -66,38 +66,40 @@ function App() {
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-sticky"
           >
-            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-12 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 text-xl"
+                aria-current="page"
+              >
+                Home
+              </a>
+
               <li>
                 <a
                   href="#"
-                  className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                  className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 text-xl"
                   aria-current="page"
                 >
-                  Home
+                  Car Repair
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 text-xl"
+                  aria-current="page"
                 >
-                  About
+                  Ride Now
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 text-xl"
+                  aria-current="page"
                 >
-                  Services
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Contact
+                  Contact Us
                 </a>
               </li>
             </ul>
@@ -111,10 +113,12 @@ function App() {
         <div className="container px-6 py-1 mx-auto text-center relative">
           <div className="flex justify-center mt-10">
             <img
-              className="object-cover w-full h-96 rounded-xl lg:w-7/8"
-              src="https://images.unsplash.com/photo-1600786288595-3dbb17cbbe66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
+              className="object-cover w-full rounded-xl lg:w-8/9"
+              style={{ height: "700px" }}
+              src="https://res.cloudinary.com/dcpte972l/image/upload/v1687610880/1162588_mcd3gi.jpg"
               alt="Hero Image"
             />
+
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="max-w-lg mx-auto bg-stone-500 bg-opacity-25 p-6 rounded-lg">
                 <div className="flex justify-center items-center">
@@ -137,94 +141,134 @@ function App() {
         </div>
       </section>
 
-{/* 
------------------------------------------------------------------------------------------------------- cardssssssssss ----------------------------------------------------------------------------------------------------------------- */}
 
 
 
 
+      <section className="bg-white ">
+        <div className="container px-6 py-10 mx-auto">
+          <h1 className="text-2xl font-semibold text-center text-sky-600 capitalize lg:text-3xl dark:text-cyan-500">
+            BOB MotoWorks
+          </h1>
 
-<section className='bg-white '>
-				<div className='container px-6 py-10 mx-auto'>
-					<h1 className='text-2xl font-semibold text-center text-cyan-300 capitalize lg:text-3xl dark:text-cyan-500'>
-						Portfolio
-					</h1>
+          <p className="mt-4 text-center text-gray-500 dark:text-cyan-600">
+            Some Fancy Cars We Have!
+          </p>
 
-					<p className='mt-4 text-center text-gray-500 dark:text-cyan-600'>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
-						quam voluptatibus
-					</p>
+          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
+            <div
+              className="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+              style={{
+                backgroundImage:
+                  "url('https://res.cloudinary.com/dcpte972l/image/upload/v1687612388/pexels-brett-sayles-1638459_njrutp.jpg')",
+              }}
+            >
+              <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                <h2 className="mt-4 text-xl font-semibold text-white capitalize">
+                  Best website collections
+                </h2>
+                <p className="mt-2 text-lg tracking-wider text-blue-400 uppercase ">
+                  Website
+                </p>
+              </div>
+            </div>
 
-					<div className='grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3'>
-						<div
-							className='overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group'
-							style={{
-								backgroundImage:
-									"url('https://res.cloudinary.com/dcxnmagjx/image/upload/v1687327759/roselyn-tirado-GDWmu0bFfS4-unsplash_cxlcg6.jpg')",
-							}}
-						>
-							<div className='flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100'>
-								<h2 className='mt-4 text-xl font-semibold text-white capitalize'>
-									Best website collections
-								</h2>
-								<p className='mt-2 text-lg tracking-wider text-blue-400 uppercase '>
-									Website
-								</p>
-							</div>
-						</div>
+            <div
+              className="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+              style={{
+                backgroundImage:
+                  "url('https://res.cloudinary.com/dcpte972l/image/upload/v1687612824/pexels-vitali-adutskevich-16350208_biaxtf.jpg')",
+              }}
+            >
+              <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                <h2 className="mt-4 text-xl font-semibold text-white capitalize">
+                  Block of Ui kit collections
+                </h2>
+                <p className="mt-2 text-lg tracking-wider text-blue-400 uppercase ">
+                  Ui kit
+                </p>
+              </div>
+            </div>
 
-						<div
-							className='overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group'
-							style={{
-								backgroundImage:
-									"url('https://res.cloudinary.com/dcxnmagjx/image/upload/v1687329112/annie-gray-WEWTGkPUVT0-unsplash_vvcm5n.jpg')",
-							}}
-						>
-							<div className='flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100'>
-								<h2 className='mt-4 text-xl font-semibold text-white capitalize'>
-									Block of Ui kit collections
-								</h2>
-								<p className='mt-2 text-lg tracking-wider text-blue-400 uppercase '>
-									Ui kit
-								</p>
-							</div>
-						</div>
-
-						<div
-							className='overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group'
-							style={{
-								backgroundImage:
-									"url('https://res.cloudinary.com/dcxnmagjx/image/upload/v1687327760/christopher-burns-8KfCR12oeUM-unsplash_m7whzi.jpg')",
-							}}
-						>
-							<div className='flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100'>
-								<h2 className='mt-4 text-xl font-semibold text-white capitalize'>
-									Ton’s of mobile mockup
-								</h2>
-								<p className='mt-2 text-lg tracking-wider text-blue-400 uppercase '>
-									Mockups
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
+            <div
+              className="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+              style={{
+                backgroundImage:
+                  "url('https://res.cloudinary.com/dcpte972l/image/upload/v1687612822/pexels-mike-bird-170811_irqofy.jpg')",
+              }}
+            >
+              <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                <h2 className="mt-4 text-xl font-semibold text-white capitalize">
+                  Ton’s of mobile mockup
+                </h2>
+                <p className="mt-2 text-lg tracking-wider text-blue-400 uppercase ">
+                  Mockups
+                </p>
+              </div>
+            </div>
+            <div
+              className="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+              style={{
+                backgroundImage:
+                  "url('https://res.cloudinary.com/dcpte972l/image/upload/v1687612822/pexels-j-media-group-16317689_k1v26n.jpg')",
+              }}
+            >
+              <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                <h2 className="mt-4 text-xl font-semibold text-white capitalize">
+                  Ton’s of mobile mockup
+                </h2>
+                <p className="mt-2 text-lg tracking-wider text-blue-400 uppercase ">
+                  Mockups
+                </p>
+              </div>
+            </div>
+            <div
+              className="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+              style={{
+                backgroundImage:
+                  "url('https://res.cloudinary.com/dcpte972l/image/upload/v1687612814/pexels-joshua-k%C3%B6ller-757186_nsolqv.jpg')",
+              }}
+            >
+              <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                <h2 className="mt-4 text-xl font-semibold text-white capitalize">
+                  Ton’s of mobile mockup
+                </h2>
+                <p className="mt-2 text-lg tracking-wider text-blue-400 uppercase ">
+                  Mockups
+                </p>
+              </div>
+            </div>
+            <div
+              className="overflow-hidden bg-cover rounded-lg cursor-pointer h-96 group"
+              style={{
+                backgroundImage:
+                  "url('https://res.cloudinary.com/dcpte972l/image/upload/v1687612984/pexels-sachith-ravishka-kodikara-8911015_shk6qw.jpg')",
+              }}
+            >
+              <div className="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                <h2 className="mt-4 text-xl font-semibold text-white capitalize">
+                  Ton’s of mobile mockup
+                </h2>
+                <p className="mt-2 text-lg tracking-wider text-blue-400 uppercase ">
+                  Mockups
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 {/* 
 ---------------------------------------------------------------------------------------------------------------------stats------------------------------------------------------------------------------------------------------------ */}
 
 
 <div className='bg-white py-20 sm:py-32'>
-			<h2 className="max-w-4xl py-10 mx-auto text-4xl font-semibold tracking-tight text-gray-800 xl:text-4xl dark:text-gray-800 text-center">
-					Trusted By The World’s Most<span className="text-sky-600"> Innovative Teams</span>
-            </h2>
-				
+			
 				
 				<div className='mx-auto max-w-7xl px-6 lg:px-8'>
 					
 				
-					<div className='mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5'>
+					<div className='mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4'>
 
 
 
@@ -234,11 +278,11 @@ function App() {
 					<motion.img
 	whileHover={{ x: 10, y: -10 }}
 	transition={{ duration: 0.5 }}
-	className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
-	src='https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg'
+	className='col-span-2 max-h-150 w-full object-contain lg:col-span-1'
+	src='https://res.cloudinary.com/dcxnmagjx/image/upload/v1687611024/Colorful_Vintage_Retro_Car_Logo_pxzgry.png'
 	alt='Transistor'
-	width={158}
-	height={48}
+	width={458}
+	height={148}
 />
 
 
@@ -250,8 +294,17 @@ function App() {
 <motion.img
 	whileHover={{ x: 10, y: -10 }}
 	transition={{ duration: 0.5 }}
-	className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
-	src='https://tailwindui.com/img/logos/158x48/reform-logo-gray-900.svg'
+	className='col-span-2 max-h-150 w-full object-contain lg:col-span-1'
+	src='https://res.cloudinary.com/dcxnmagjx/image/upload/v1687612089/1_qyctzj.png'
+	alt='Transistor'
+	width={158}
+	height={48}
+/>
+<motion.img
+	whileHover={{ x: 10, y: -10 }}
+	transition={{ duration: 0.5 }}
+	className='col-span-2 max-h-150 w-full object-contain lg:col-span-1'
+	src='https://res.cloudinary.com/dcxnmagjx/image/upload/v1687612150/1_vdnb6a.png'
 	alt='Transistor'
 	width={158}
 	height={48}
@@ -260,35 +313,209 @@ function App() {
 <motion.img
 	whileHover={{ x: 10, y: -10 }}
 	transition={{ duration: 0.5 }}
-	className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
-	src='https://tailwindui.com/img/logos/158x48/savvycal-logo-gray-900.svg'
+	className='col-span-2 max-h-120 w-full object-contain lg:col-span-1'
+	src='https://res.cloudinary.com/dcxnmagjx/image/upload/v1687611970/Colorful_Vintage_Classic_Retro_Car_Logo_sjyxou.png'
 	alt='Transistor'
-	width={158}
-	height={48}
-/>
-				
-<motion.img
-	whileHover={{ x: 10, y: -10 }}
-	transition={{ duration: 0.5 }}
-	className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
-	src='https://tailwindui.com/img/logos/158x48/tuple-logo-gray-900.svg'
-	alt='Transistor'
-	width={158}
+	width={100}
 	height={48}
 />
 <motion.img
-	whileHover={{ x: 10, y: -10 }}
-	transition={{ duration: 0.5 }}
-	className='col-span-2 max-h-12 w-full object-contain lg:col-span-1'
-	src='https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg'
-	alt='Transistor'
-	width={158}
-	height={48}
-/>
+              whileHover={{ x: 10, y: -10 }}
+              transition={{ duration: 0.5 }}
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="https://res.cloudinary.com/dcpte972l/image/upload/v1687613497/bentley-logo-2002-black-download_a9i3s9.png"
+              alt="Transistor"
+              width={158}
+              height={48}
+            />
+
+            <motion.img
+              whileHover={{ x: 10, y: -10 }}
+              transition={{ duration: 0.5 }}
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="https://res.cloudinary.com/dcpte972l/image/upload/v1687613496/audi-logo-2016-download_vljbpf.png"
+              alt="Transistor"
+              width={158}
+              height={48}
+            />
+
+            <motion.img
+              whileHover={{ x: 10, y: -10 }}
+              transition={{ duration: 0.5 }}
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="https://res.cloudinary.com/dcpte972l/image/upload/v1687613121/tesla-logo-2007-download_s4woea.png"
+              alt="Transistor"
+              width={158}
+              height={48}
+            />
+
+            <motion.img
+              whileHover={{ x: 10, y: -10 }}
+              transition={{ duration: 0.5 }}
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="https://res.cloudinary.com/dcpte972l/image/upload/v1687613498/honda-logo-2000-full-download_wwauku.png"
+              alt="Transistor"
+              width={158}
+              height={48}
+            />
+            	
+
 				
 					</div>
 				</div>
 			</div>
+
+
+
+
+
+
+{/* -------------------------------------------------------------------------------------------------------------carcard -------------------------------------------------------------------------------------------------------*/}
+
+
+
+{/* 
+<div className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    <div className="px-4 py-2">
+        <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">NIKE AIR</h1>
+        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos quidem sequi illum facere recusandae voluptatibus</p>
+    </div>
+
+    <img className="object-cover w-full h-48 mt-2" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=320&q=80" alt="NIKE AIR" />
+
+    <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
+        <h1 className="text-lg font-bold text-white">$129</h1>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">Add to cart</button>
+    </div>
+</div> */}
+
+
+
+
+
+<section className='bg-gray-100 '>
+				<div className='container px-6 py-10 mx-auto'>
+					<h1 className='text-2xl font-semibold text-center text-cyan-300 capitalize lg:text-3xl dark:text-cyan-500'>
+						Car Card
+					</h1>
+
+					<p className='mt-4 text-center text-gray-500 dark:text-cyan-600'>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
+						quam voluptatibus
+					</p>
+
+					<div className='grid grid-cols-1 gap-2 mt-8 xl:mt-12 xl:gap-6 md:grid-cols-2 xl:grid-cols-4'>
+						
+          <motion.div whileHover={{ scale: 0.95 }} className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    <div className="px-4 py-2">
+        <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">Toyota</h1>
+        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">Toyota. Toyota Hyryder. The Japanese auto giant still holds a strong grip on Indias automotive market. They are globally renowned for their reliability, ...</p>
+    </div>
+
+    <img className="object-cover w-full h-48 mt-2" src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618465/Screenshot_2023-06-24_201807-removebg-preview_jfb1at.png" alt="NIKE AIR" />
+
+    <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
+        <h1 className="text-lg font-bold text-white">$129</h1>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">Add to cart</button>
+    </div>
+</motion.div>
+<motion.div whileHover={{ scale: 0.95 }} className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    <div className="px-4 py-2">
+        <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">Volkswagen</h1>
+        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">Volkswagen offers some of the finest cars in Indias passenger car market. The German brand is eminent for its robust build quality and premium feel across ...</p>
+    </div>
+
+    <img className="object-cover w-full h-48 mt-2" src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201901-removebg-preview_yn2hbg.png" alt="NIKE AIR" />
+
+    <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
+        <h1 className="text-lg font-bold text-white">$129</h1>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">Add to cart</button>
+    </div>
+</motion.div>
+
+<motion.div whileHover={{ scale: 0.95 }} className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    <div className="px-4 py-2">
+        <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">BMW</h1>
+        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">BMW (Bavarian Motor Works) is a German automobile company founded in 1916, it also owns and produces Mini cars and Rolls-Royce Motor Cars. BMW is one of ...</p>
+    </div>
+
+    <img className="object-cover w-full h-48 mt-2" src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201753-removebg-preview_jk461c.png" alt="NIKE AIR" />
+
+    <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
+        <h1 className="text-lg font-bold text-white">$129</h1>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">Add to cart</button>
+    </div>
+</motion.div>
+<motion.div whileHover={{ scale: 0.95 }} className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    <div className="px-4 py-2">
+        <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">Kia</h1>
+        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">Kia is one of the newer car brands to enter India but has quickly established itself as a popular car maker in the country. The Korean company builds some ...</p>
+    </div>
+
+    <img className="object-cover w-full h-48 mt-2" src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201911-removebg-preview_qfsc64.png" alt="NIKE AIR" />
+
+    <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
+        <h1 className="text-lg font-bold text-white">$129</h1>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">Add to cart</button>
+    </div>
+</motion.div>
+<motion.div whileHover={{ scale: 0.95 }} className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    <div className="px-4 py-2">
+        <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">Hyundai</h1>
+        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">Hyundai, and Tata Motors dominate the current market, contributing 70% of overall sales in September 2022, there are other car brands ...</p>
+    </div>
+
+    <img className="object-cover w-full h-48 mt-2" src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201834-removebg-preview_epcddf.png" alt="NIKE AIR" />
+
+    <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
+        <h1 className="text-lg font-bold text-white">$129</h1>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">Add to cart</button>
+    </div>
+</motion.div>
+
+<motion.div whileHover={{ scale: 0.95 }} className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    <div className="px-4 py-2">
+        <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">Renault</h1>
+        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">Renault in general is known for their peppy engines, and affordable range but is let down by the lack of service network and the build quality.</p>
+    </div>
+
+    <img className="object-cover w-full h-48 mt-2" src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201834-removebg-preview_epcddf.png" alt="NIKE AIR" />
+
+    <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
+        <h1 className="text-lg font-bold text-white">$129</h1>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">Add to cart</button>
+    </div>
+</motion.div>
+
+<motion.div whileHover={{ scale: 0.95 }} className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    <div className="px-4 py-2">
+        <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">Kia</h1>
+        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">Kia is one of the newer car brands to enter India but has quickly established itself as a popular car maker in the country. The Korean company builds some ...</p>
+    </div>
+
+    <img className="object-cover w-full h-48 mt-2" src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201911-removebg-preview_qfsc64.png" alt="NIKE AIR" />
+
+    <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
+        <h1 className="text-lg font-bold text-white">$129</h1>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">Add to cart</button>
+    </div>
+</motion.div>
+<motion.div whileHover={{ scale: 0.95 }} className="max-w-xs overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800">
+    <div className="px-4 py-2">
+        <h1 className="text-xl font-bold text-gray-800 uppercase dark:text-white">Hyundai</h1>
+        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">Hyundai, and Tata Motors dominate the current market, contributing 70% of overall sales in September 2022, there are other car brands ...</p>
+    </div>
+
+    <img className="object-cover w-full h-48 mt-2" src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201928-removebg-preview_y4hjs8.png" alt="NIKE AIR" />
+
+    <div className="flex items-center justify-between px-4 py-2 bg-gray-900">
+        <h1 className="text-lg font-bold text-white">$129</h1>
+        <button className="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none">Add to cart</button>
+    </div>
+</motion.div>
+        	</div>
+				</div>
+			</section>
 
 
 
@@ -302,7 +529,7 @@ function App() {
 
 
 
-      <section className="bg-gray-100">
+<section className="bg-gray-100">
         <div className="container flex flex-col items-center px-4 py-12 mx-auto text-center">
           <h2 className="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-800 xl:text-3xl dark:text-gray-800">
             Services You Need{" "}
@@ -315,7 +542,7 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-10"></div>
                 <div className="flex justify-center items-center h-20 w-20 rounded-full mx-auto">
                   <img
-                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687209069/ws_zffxox.png"
+                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618465/Screenshot_2023-06-24_201807-removebg-preview_jfb1at.png"
                     className="w-32"
                     alt="Logo"
                   />
@@ -336,7 +563,7 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-10"></div>
                 <div className="flex justify-center items-center h-20 w-20 rounded-full mx-auto">
                   <img
-                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687209069/ws_zffxox.png"
+                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201821-removebg-preview_tv8tef.png"
                     className="w-32"
                     alt="Logo"
                   />
@@ -354,7 +581,7 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-10"></div>
                 <div className="flex justify-center items-center h-20 w-20 rounded-full mx-auto">
                   <img
-                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687209069/ws_zffxox.png"
+                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201834-removebg-preview_epcddf.png"
                     className="w-32"
                     alt="Logo"
                   />
@@ -372,7 +599,7 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-10"></div>
                 <div className="flex justify-center items-center h-20 w-20 rounded-full mx-auto">
                   <img
-                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687209069/ws_zffxox.png"
+                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201753-removebg-preview_jk461c.png"
                     className="w-32"
                     alt="Logo"
                   />
@@ -390,7 +617,7 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-10"></div>
                 <div className="flex justify-center items-center h-20 w-20 rounded-full mx-auto">
                   <img
-                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687209069/ws_zffxox.png"
+                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201911-removebg-preview_qfsc64.png"
                     className="w-32"
                     alt="Logo"
                   />
@@ -408,7 +635,7 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-10"></div>
                 <div className="flex justify-center items-center h-20 w-20 rounded-full mx-auto">
                   <img
-                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687209069/ws_zffxox.png"
+                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201901-removebg-preview_yn2hbg.png"
                     className="w-32"
                     alt="Logo"
                   />
@@ -426,7 +653,7 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-10"></div>
                 <div className="flex justify-center items-center h-20 w-20 rounded-full mx-auto">
                   <img
-                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687209069/ws_zffxox.png"
+                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201928-removebg-preview_y4hjs8.png"
                     className="w-32"
                     alt="Logo"
                   />
@@ -444,7 +671,7 @@ function App() {
                 <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-10"></div>
                 <div className="flex justify-center items-center h-20 w-20 rounded-full mx-auto">
                   <img
-                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687209069/ws_zffxox.png"
+                    src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687618464/Screenshot_2023-06-24_201821-removebg-preview_tv8tef.png"
                     className="w-32"
                     alt="Logo"
                   />
@@ -462,6 +689,73 @@ function App() {
       </section>
 
 
+
+
+
+
+
+{/* 
+
+
+{/* 
+-----------------------------------------------------------------------------------------------------------------------------------------silde----------------------------------------------------------------------------------------------- */}
+
+<section className="bg-gray-100 dark:bg-gray-900">
+    
+
+    <div className="container flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
+        <div className="w-full lg:w-1/2">
+            <div className="lg:max-w-lg">
+                <h1 className="text-3xl font-semibold tracking-wide text-gray-800 dark:text-white lg:text-4xl">
+                    Easiest way to create your website
+                </h1>
+
+                <div className="mt-8 space-y-5">
+                    <p className="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+
+                        <span className="mx-2">Clean and Simple Layout</span>
+                    </p>
+
+                    <p className="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+
+                        <span className="mx-2">Just Copy Paste Codeing</span>
+                    </p>
+
+                    <p className="flex items-center -mx-2 text-gray-700 dark:text-gray-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 mx-2 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+
+                        <span className="mx-2">Easy to Use</span>
+                    </p>
+                </div>
+            </div>
+
+            <div className="w-full mt-8 bg-transparent border rounded-md lg:max-w-sm dark:border-gray-700 focus-within:border-blue-400 focus-within:ring focus-within:ring-blue-300 dark:focus-within:border-blue-400 focus-within:ring-opacity-40">
+                <form className="flex flex-col lg:flex-row">
+                    <input type="email" placeholder="Enter your email address" className="flex-1 h-10 px-4 py-2 m-1 text-gray-700 placeholder-gray-400 bg-transparent border-none appearance-none dark:text-gray-200 focus:outline-none focus:placeholder-transparent focus:ring-0" />
+
+                    <button type="button" className="h-10 px-4 py-2 m-1 text-white transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:bg-blue-400">
+                        Join Us
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
+            <img className="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" src="https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="glasses photo" />
+        </div>
+    </div>
+</section>
+
+
+
 {/*--------------------------------------------------------------------------------------------------------------------------- testimonial ------------------------------------------------------------------------------------------*/}
 
 
@@ -473,6 +767,40 @@ function App() {
 
 
 
+<section className="bg-white dark:bg-gray-900">
+    <div className="relative flex">
+        <div className="min-h-screen lg:w-1/3"></div>
+        <div className="hidden w-3/4 min-h-screen bg-gray-100 dark:bg-gray-800 lg:block"></div>
+
+        <div
+            className="container flex flex-col justify-center w-full min-h-screen px-6 py-10 mx-auto lg:absolute lg:inset-x-0">
+            <h1 className="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
+                What our <span className="text-blue-500">customers</span> <br /> are saying
+            </h1>
+
+            <div className="mt-10 lg:mt-20 lg:flex lg:items-center">
+                <img className="object-cover object-center w-full lg:w-[32rem] rounded-lg h-96" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
+
+                <div className="mt-8 lg:px-10 lg:mt-0">
+                    <h1 className="text-2xl font-semibold text-gray-800 dark:text-white lg:w-72">
+                        Help us improve our productivity
+                    </h1>
+
+                    <p className="max-w-lg mt-6 text-gray-500 dark:text-gray-400">
+                        “ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                        tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                        aperiam dolorum, obcaecati corrupti aspernatur a. ”
+                    </p>
+
+                    <h3 className="mt-6 text-lg font-medium text-blue-500">Ronik Ederson</h3>
+                    <p className="text-gray-600 dark:text-gray-300">Marketing Manager at Stech</p>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
 
 
 
@@ -488,27 +816,27 @@ function App() {
 
       {/*------------------------------------------------------------------------------------------------------------------- Footer -----------------------------------------------------------------------------------------------------*/}
 
-      <footer className="bg-white dark:bg-gray-900">
+      <footer className="bg-black dark:bg-gray-900">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
               <a href="https://flowbite.com/" className="flex items-center">
                 <img
-                  src="https://flowbite.com/docs/images/logo.svg"
-                  className="h-8 mr-3"
+                  src="https://res.cloudinary.com/dcxnmagjx/image/upload/v1687609442/Black_And_White_Modern_Car_Wash_Logo_aovmkf.png"
+                  className="h-20 mr-20"
                   alt="FlowBite Logo"
                 />
-                <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                  Flowbite
+                <span className="self-center text-2xl font-semibold whitespace-nowrap text-white dark:text-white">
+                  BOB MOTOWORKS
                 </span>
               </a>
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                   Resources
                 </h2>
-                <ul className="text-gray-600 dark:text-gray-400 font-medium">
+                <ul className="text-white dark:text-white font-medium">
                   <li className="mb-4">
                     <a href="https://flowbite.com/" className="hover:underline">
                       Flowbite
@@ -525,10 +853,10 @@ function App() {
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                   Follow us
                 </h2>
-                <ul className="text-gray-600 dark:text-gray-400 font-medium">
+                <ul className="text-white dark:text-white font-medium">
                   <li className="mb-4">
                     <a
                       href="https://github.com/themesberg/flowbite"
@@ -548,10 +876,10 @@ function App() {
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                   Legal
                 </h2>
-                <ul className="text-gray-600 dark:text-gray-400 font-medium">
+                <ul className="text-white dark:text-white font-medium">
                   <li className="mb-4">
                     <a href="#" className="hover:underline">
                       Privacy Policy
@@ -568,7 +896,7 @@ function App() {
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            <span className="text-sm text-white sm:text-center dark:text-white">
               © 2023{" "}
               <a href="https://flowbite.com/" class="hover:underline">
                 Flowbite™
@@ -578,7 +906,7 @@ function App() {
             <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
               <a
                 href="#"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-500 hover:text-gray-100 dark:hover:text-white"
               >
                 <svg
                   className="w-5 h-5"
@@ -596,7 +924,7 @@ function App() {
               </a>
               <a
                 href="#"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-500 hover:text-gray-100 dark:hover:text-white"
               >
                 <svg
                   className="w-5 h-5"
@@ -614,7 +942,7 @@ function App() {
               </a>
               <a
                 href="#"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-500 hover:text-gray-100 dark:hover:text-white"
               >
                 <svg
                   className="w-5 h-5"
@@ -628,7 +956,7 @@ function App() {
               </a>
               <a
                 href="#"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-500 hover:text-gray-100 dark:hover:text-white"
               >
                 <svg
                   className="w-5 h-5"
@@ -646,7 +974,7 @@ function App() {
               </a>
               <a
                 href="#"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
+                className="text-gray-500 hover:text-gray-100 dark:hover:text-white"
               >
                 <svg
                   className="w-5 h-5"
